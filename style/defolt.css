@@ -97,9 +97,6 @@ button {
     }
 
     @media (max-width: 580px) {
-        .container {
-            padding: 0 10px;
-        }
 
     }
     
