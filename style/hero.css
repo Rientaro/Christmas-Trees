@@ -161,7 +161,7 @@ width: 41vw;
 }
 @media (max-width: 580px) {
     .hero__left {
-        margin: 0 -40px;
+        margin: 0 -10px;
     }
 
     .hero__title {
