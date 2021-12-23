@@ -23,11 +23,10 @@
         --url-features-two: url("../images/christmas-decorations.svg");
         --url-features-three: url("../images//flowers.svg");
         --url-features-four: url("../images//delivery-truck.svg");
-
         }
         </style>
 
-    <link rel="stylesheet" href="ball/ball.css">
+    <link rel="stylesheet" href="ball/ball.js">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/defolt.css">
     <link rel="stylesheet" href="style/header.css">
@@ -41,6 +40,8 @@
     <link rel="stylesheet" href="style/option_pay.css">
 
 <script src="ball/ball.js" defer> </script>
+
+<script src="script/burger.js" defer> </script>
 </head>
 <body>
 <header class="header">
@@ -57,16 +58,16 @@
 <nav class="header__navigation navigation">
 <ul class="navigation__list">
 <li class="navigation__item">
-    <a href="" class="navigation__link">Пихта Фразера</a>
+    <a href="#one" class="navigation__link">Пихта Фразера</a>
 </li>
 <li class="navigation__item">
-    <a href="" class="navigation__link">Русская ель</a>
+    <a href="#two" class="navigation__link">Русская ель</a>
 </li>
 <li class="navigation__item">
-    <a href="" class="navigation__link">Сибирская пихта</a>
+    <a href="#three" class="navigation__link">Сибирская пихта</a>
 </li>
 <li class="navigation__item">
-    <a href="" class="navigation__link">Как оплатить?</a>
+    <a href="#pay" class="navigation__link">Как оплатить?</a>
 </li>
 
 </ul>
@@ -164,7 +165,7 @@
 
 </section>
 
-<section class="pay">
+<section class="pay" id="pay">
     <div class="container">
 <h2 class="pay__title">Как можно оплатить</h2>
     <ul class="pay__list">
