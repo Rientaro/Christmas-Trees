@@ -27,4 +27,14 @@ overlayOrder.addEventListener('click', event => {
     }
 });
 
+overlayCons.addEventListener('click', event => {
+    const target = event.target;
+
+    if (target === overlayCons || target.closest('.modal__close')) {
+    overlayCons.classList.remove('overlay_active');
+
+    }
+});
+
+
 
