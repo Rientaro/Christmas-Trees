@@ -6,7 +6,7 @@ body{
 
 }
 
-.b-page__content{min-height:200px}
+/* .b-page__content{min-height:200px} */
 .b-head-decor{display:none}
 .b-page_newyear .b-head-decor{
    position:fixed;
